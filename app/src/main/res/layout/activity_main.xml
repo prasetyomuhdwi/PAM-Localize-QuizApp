@@ -4,23 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="12dp"
+    android:padding="@dimen/padding_sm"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="21sp"
-        android:layout_marginBottom="15dp"
-        android:text='Silahkan anda isi form registrasi berikut!' />
+        android:textSize="@dimen/text_xl"
+        android:layout_marginBottom="@dimen/margin_md"
+        android:text='@string/fore_title' />
 
     <EditText
         android:id="@+id/idInputName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Nama Lengkap"
+        android:hint="@string/input_name_hint"
         android:inputType="textPersonName" />
 
     <EditText
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Alamat Email"
+        android:hint="@string/input_email_hint"
         android:inputType="textEmailAddress" />
 
     <EditText
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Nomor HP"
+        android:hint="@string/input_phone_hint"
         android:inputType="phone" />
 
     <EditText
@@ -44,14 +44,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/input_password_hint"
         android:inputType="textPassword" />
 
     <Button
         android:id="@+id/idBtnSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Simpan" />
+        android:layout_marginTop="@dimen/margin_md"
+        android:text="@string/button_reg_save" />
 
 </LinearLayout>

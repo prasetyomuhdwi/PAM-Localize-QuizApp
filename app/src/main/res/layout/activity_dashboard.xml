@@ -9,7 +9,7 @@
     <LinearLayout
         android:background="@color/cardview_dark_background"
         android:orientation="vertical"
-        android:padding="16dp"
+        android:padding="@dimen/padding_md"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -25,8 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textSize="18dp"
-            android:text="Full name"/>
+            android:textSize="@dimen/text_lg"
+            android:text="@string/tv_name"/>
 
         <TextView
             android:id="@+id/tvEmail"
@@ -34,8 +34,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textSize="18dp"
-            android:text="Email"/>
+            android:textSize="@dimen/text_lg"
+            android:text="@string/tv_email"/>
 
         <TextView
             android:id="@+id/tvPhone"
@@ -43,14 +43,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textSize="18dp"
-            android:text="Phone"/>
+            android:textSize="@dimen/text_lg"
+            android:text="@string/tv_phone"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
-        android:padding="16dp"
+        android:padding="@dimen/padding_md"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -59,22 +59,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Call *123#" />
+            android:text="@string/button_call" />
 
         <Button
             android:id="@+id/buttonQuiz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Quiz" />
+            android:text="@string/button_quiz" />
+
+        <Button
+            android:id="@+id/buttonLang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_lang" />
 
         <TextView
             android:id="@+id/tvResult"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/margin_md"
             android:textAlignment="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Hasil Quiz" />
+            android:text="@string/tv_result_quiz" />
     </LinearLayout>
 </LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Apps</string>
+
+    <!-- Main -->
+    <string name="fore_title">Silahkan isi form registrasi berikut </string>
+    <string name="input_name_hint">Nama Lengkap</string>
+    <string name="input_email_hint">Alamat Email</string>
+    <string name="input_phone_hint">Nomor Telepon</string>
+    <string name="input_password_hint">Password</string>
+    <string name="ans_correct">Jawaban anda benar</string>
+    <string name="ans_wrong">Jawaban anda salah</string>
+    <string name="button_reg_save">Simpan</string>
+
+    <!-- dashboard -->
+    <string name="tv_name">Nama lengkap</string>
+    <string name="tv_email">Alamat email</string>
+    <string name="tv_phone">Nomor telepon</string>
+    <string name="button_call">Telepon *123#</string>
+    <string name="button_quiz">Kuis</string>
+    <string name="button_lang">Bahasa</string>
+    <string name="tv_result_quiz">Hasil kuis</string>
+
+    <!-- quiz -->
+    <string name="fore_title_quiz">Berapa kali tim indonesia menjuarai piala Thomas Cup?</string>
+    <string name="rb_10">10 kali</string>
+    <string name="rb_5">5 kali</string>
+    <string name="rb_13">13 kali</string>
+    <string name="rb_1">1 kali</string>
+    <string name="button_send">Kirim jawaban</string>
+</resources>

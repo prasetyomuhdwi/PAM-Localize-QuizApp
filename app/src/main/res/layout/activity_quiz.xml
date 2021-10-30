@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="@dimen/padding_md"
     tools:context=".QuizActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="@dimen/margin_md"
         android:textAlignment="center"
-        android:textSize="16dp"
-        android:text="Berapa kali tim indonesia menjuarai piala Thomas Cup?" />
+        android:textSize="@dimen/text_lg"
+        android:text="@string/fore_title_quiz"
+        tools:ignore="SpUsage" />
 
     <RadioGroup
         android:id="@+id/rg_number"
@@ -26,29 +27,29 @@
             android:id="@+id/rb_10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="10 kali" />
+            android:layout_marginBottom="@dimen/margin_md"
+            android:text="@string/rb_10" />
 
         <RadioButton
             android:id="@+id/rb_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="5 kali" />
+            android:layout_marginBottom="@dimen/margin_md"
+            android:text="@string/rb_5" />
 
         <RadioButton
             android:id="@+id/rb_13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="13 kali" />
+            android:layout_marginBottom="@dimen/margin_md"
+            android:text="@string/rb_13" />
 
         <RadioButton
             android:id="@+id/rb_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="1 kali" />
+            android:layout_marginBottom="@dimen/margin_md"
+            android:text="@string/rb_1" />
 
     </RadioGroup>
 
@@ -56,5 +57,5 @@
         android:id="@+id/buttonAnswer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kirim Jawaban" />
+        android:text="@string/button_send" />
 </LinearLayout>

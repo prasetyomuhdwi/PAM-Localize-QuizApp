@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Quiz Apps</string>
+
+    <!-- Main -->
+    <string name="fore_title">Fill the registration form below</string>
+    <string name="input_name_hint">Full name</string>
+    <string name="input_email_hint">Email address</string>
+    <string name="input_phone_hint">Phone number</string>
+    <string name="input_password_hint">Password</string>
+    <string name="ans_correct">Your answer is correct</string>
+    <string name="ans_wrong">Your answer is wrong</string>
+    <string name="button_reg_save">Save</string>
+
+    <!-- dashboard -->
+    <string name="tv_name">Full name</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_phone">Phone</string>
+    <string name="button_call">Call *123#</string>
+    <string name="button_quiz">Quiz</string>
+    <string name="button_lang">Language</string>
+    <string name="tv_result_quiz">Quiz Result</string>
+
+    <!-- quiz -->
+    <string name="fore_title_quiz">How many times has the Indonesian team won the Thomas Cup trophy?</string>
+    <string name="rb_10">10 times</string>
+    <string name="rb_5">5 times</string>
+    <string name="rb_13">13 times</string>
+    <string name="rb_1">1 times</string>
+    <string name="button_send">Submit answer</string>
 </resources>
